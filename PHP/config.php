@@ -8,25 +8,25 @@
 	$GLOBALS["siteVersion"] = "1.3.0";
 	$GLOBALS["adminContact"] = "u19004029@tuks.co.za";
 
-	$GLOBALS["userPass"] = "u19004029:Bl@derunner6";
+	$GLOBALS["userPass"] = "";
 	
 	//connection
 	$GLOBALS["serverName"] = "127.0.0.1";
-	$GLOBALS["username"] = "u19004029";
-	$GLOBALS["password"] = "Bl@derunner6";
-	$GLOBALS["database"] = "u19004029_tune_room_users";
+	$GLOBALS["username"] = "user";
+	$GLOBALS["password"] = "pass";
+	$GLOBALS["database"] = "database";
 	
 	//Signup validation
 	$GLOBALS["validateSignup"]= "validate-signup.php";
 
 	//API Functionality
-	$GLOBALS["LastFMAPI"] = "05ddd7a55e17b1bd7f1bf1886cc17101";
+	$GLOBALS["LastFMAPI"] = "void";
 	$GLOBALS["MusicBrainzHeader"] = "User-Agent: '" . $GLOBALS["siteName"] . "/" . $GLOBALS["siteVersion"] . " (" . $GLOBALS["adminContact"] . ")";
 	$GLOBALS["MAXBILLBOARD"] = 1000;
 	$GLOBALS["MAXDISPLAY"] = 60;
 	
-	$GLOBALS["serverLocation"] = "localhost/";//"wheatley.cs.up.ac.za"; 
-	$GLOBALS["wheatleyProxy"] = "phugeet.cs.up.ac.za:3128";
+	$GLOBALS["serverLocation"] = "localhost/"; 
+	$GLOBALS["wheatleyProxy"] = "proxy";
 
 	//Caching
 	$GLOBALS["isCaching"] = true;
