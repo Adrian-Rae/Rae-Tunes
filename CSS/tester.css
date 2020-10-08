@@ -1,0 +1,39 @@
+body
+{
+	font-family: var(--theme-font);
+}
+
+
+div
+{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	height: auto;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+p1
+{
+	font-size:25px;
+	font-weight: bold;
+}
+
+input
+{
+	margin-bottom: 25px;
+	margin-top: 25px;
+	width: 60%;
+	text-align: center;
+}
+
+label
+{
+	font-size: 17px;
+}
+
+#A
+{
+	font-size: 13px;
+}

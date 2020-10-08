@@ -1,0 +1,83 @@
+/*============================================
+		Footer
+=============================================*/
+:root{
+	/* #333 */
+	--theme-primary: #222;
+	/* #A83232 */
+	--theme-secondary: #500000;
+	--theme-gradient: linear-gradient(0deg, var(--theme-secondary) 0%, var(--theme-primary) 65%);
+	--theme-text: #FFFFFF;
+
+	--login-dim: 300px;
+	--theme-font: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+
+*
+{
+	font-family: var(--theme-font);
+}
+
+.footer
+{
+	
+	
+	position: fixed;
+	width: 100%;
+	left: 0px;
+	display: table-footer-group;
+	height: 40px;
+	opacity: 0;
+	bottom:0px;
+	z-index: 100;
+	overflow: hidden;
+	box-shadow: 0px 5px 15px rgba(100,100,100,0.5) inset;
+	background: linear-gradient(0deg, rgba(0,0,0,1) 23%, rgba(20,20,20,1) 93%, var(--theme-secondary) 100%);
+	text-align: center;
+	margin: 0 auto;
+	transition: opacity 0.8s, height 0.8s;
+	
+}
+
+.footer:hover
+{
+	opacity: 1;
+	height: 80px;
+}
+
+.footer a 
+{
+	display: inline-block;
+	height: 100%;
+	width: 8%;
+	//float: center;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 10px 6px 6px 6px;
+	text-decoration: none;
+	font-size:10px;
+	font-weight: bold;
+	position: relative;
+	top:30%;
+
+	transition: background-color 0.6s, color 0.6s;
+}
+
+.hint
+{
+	position: fixed;
+	bottom:0px;
+	display: table-footer-group;
+	width: 100%;
+	left:0px;
+	height: 25px;
+	opacity: 0.2;
+	background: linear-gradient(0deg, rgba(0,0,0,1) 23%, rgba(111,57,57,1) 100%);
+	text-align: center;
+	margin: 0 auto;
+	box-shadow: 0px 5px 15px rgba(100,100,100,0.5) inset;
+	font-size: 35px;
+	color: #FFFFFF;	
+}

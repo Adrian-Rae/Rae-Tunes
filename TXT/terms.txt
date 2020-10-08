@@ -1,0 +1,11 @@
+Tune Room ZA (Ltd.) is an academic research venture into the function of various hypertext and script based elements, external APIs and their handling and
+database manipulation. It is a non-profit venture, and is adminsitered solely by through the University of Pretoria.
+
+As such, Tune Room is heavily dependent on the user data passed in during client-side exchanges. This includes requests made by specific users, login metadata such
+as usage sessions, and access to user names and contact details. However, we ensure the confidentiality of all passwords, which are hash-encrypted and are not visible
+in plaintext form.
+
+Any queries can be directed to adrianraehome@gmail.com
+
+
+

@@ -1,0 +1,174 @@
+/*--------------------------------------------------
+	BODY
+----------------------------------------------------*/
+*
+{
+	margin: 0px 0px 0px 0px;
+	font-family: var(--theme-font);
+}
+
+body
+{
+	height: 900px;
+	width: vw;
+	background-repeat: no-repeat;
+	background-size: auto;
+    background: var(--theme-gradient);
+}
+
+h1
+{
+	color: #404040;
+	font-weight: bold;
+}
+
+h2
+{
+	color: #000000;
+	font-weight: bold;
+}
+
+h3
+{
+	color: #404040;
+	font-weight: normal;
+}
+
+p
+{
+	color: #FFFFFF;	
+}
+
+
+/*--------------------------------------------------
+Main Image Caption alterations
+----------------------------------------------------*/
+.MainImageHolder
+{
+	height: 250px;
+	width: vw;
+	overflow: hidden;
+	box-shadow: 0px 7px 20px var(--theme-secondary);
+
+}
+
+.HomeImage
+{
+	width: 100%;
+}
+
+.HomeImageTitle
+{
+	position:absolute;
+	top: 6vw;
+    left: 10vw;
+	color: #FFFFFF;		
+}
+
+.HomeImageCaption
+{
+	position: absolute;
+	top: 9vw;
+    left: 10vw;
+	color: #FFFFFF;		
+}
+
+/*--------------------------------------------------
+	Registration Dialog
+----------------------------------------------------*/
+
+.registrationBox
+{
+	z-index: 10;
+	position: relative;
+	background-color:  #FFFFFF;
+	box-shadow: 0px 7px 20px var(--theme-secondary);
+	margin: 0 auto;
+	top: 50px;
+	width: 80%;
+	height: 500px;
+	border-radius: 15px;	
+}
+
+.regTable
+{
+	position: relative;
+	margin: 0 auto;
+	top: 35px;
+	width: 60%;
+	height: 60%;
+}
+
+th
+{
+	text-align: left;
+	height: 40px;
+}
+
+tr
+{
+	height: 40px;
+}
+
+.SearchBar
+{
+	height: 70%;
+	width: 98%;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.agreeBox
+{
+	opacity: 0;
+	height: 0;
+	width: 0;
+}
+
+#toggle
+{
+	position: relative;
+	top: 50px;
+}
+
+#A1
+{
+	cursor:pointer;
+}
+
+.loginButton
+{
+	position: relative;
+	top: 10px;
+	height: 50px;
+	width: 98%;
+	background-color: #40b84e;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: background-color 0.5s;
+	box-shadow: 0px 7px 20px var(--theme-secondary);
+}
+
+#E1
+{
+	font-size: 15px;
+	color: #a61616;
+	overflow: hidden;
+}
+
+#LB
+{
+	position: relative;
+	top: 10px;
+	height:60px;
+}
+
+#C1
+{
+	position: relative;
+	top: 40px;
+	font-size: 20px;
+	overflow: hidden;
+}

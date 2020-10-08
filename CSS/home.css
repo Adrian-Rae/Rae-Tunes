@@ -1,0 +1,155 @@
+/*--------------------------------------------------
+	BODY
+----------------------------------------------------*/
+*
+{
+	margin: 0px 0px 0px 0px;
+	font-family: var(--theme-font);
+}
+
+body
+{
+	height: vh;
+	overflow: hidden;
+	/*background: rgb(143,53,53);*/
+	background: var(--theme-gradient);
+}
+
+h1
+{
+	color: #FFFFFF;
+	font_weight: bold;
+}
+
+p
+{
+	color: #FFFFFF;
+}
+
+/*--------------------------------------------------
+Main Image Caption alterations
+----------------------------------------------------*/
+
+.HomeImageTitle
+{
+	position:absolute;
+	top: 15vh;
+    	left: 3vw;		
+}
+
+.HomeImageCaption
+{
+	position: absolute;
+	top: 22vh;
+    	left: 3vw;		
+}
+
+/*--------------------------------------------------
+	About Page
+----------------------------------------------------*/
+
+.AboutTextBlock
+{
+	position: relative;
+	left: 30px;
+    top: 10px;
+	width: 80%;
+	background: var(--theme-text);
+}
+
+.MainHeading
+{
+	position: absolute;
+	color: var(--theme-text);
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.subtext
+{
+	text-justify: inter-word;
+	position: absolute;	
+	top: 48px;
+	width: 60%;
+}
+
+.AboutText
+{
+	color:	var(--theme-text);
+	font-weight: normal;
+	font-size: 18px;
+	
+}
+
+#logo1
+{
+	position: absolute;
+	width: 200px;
+	height: 200px;	
+	left: 800px;
+	top: 60px;
+	border-radius: 55px;
+	overflow:hidden;
+	background-image:url("../AlbumArt/2nd_law.jpg");
+	background-size: 100% 100%;
+	animation: slideshowA 19s infinite;
+	box-shadow: 0px 7px 20px var(--theme-secondary) inset;
+}
+
+#logo2
+{
+	position: absolute;
+	width: 200px;
+	height: 200px;	
+	left: 1025px;
+	top: 60px;
+	border-radius: 55px;
+	overflow:hidden;
+	background-image:url("../AlbumArt/frun.jpg");
+	background-size: 100% 100%;
+	animation: slideshowB 20s infinite;
+	box-shadow: 0px 7px 20px var(--theme-secondary) inset;
+}
+
+#logo3
+{
+	position: absolute;
+	width: 200px;
+	height: 200px;	
+	left: 1250px;
+	top: 60px;
+	border-radius: 55px;
+	overflow:hidden;
+	background-image:url("../AlbumArt/MTJAD.jpg");
+	background-size: 100% 100%;
+	animation: slideshowC 21s infinite;
+	box-shadow: 0px 7px 20px var(--theme-secondary) inset;
+}
+
+
+@keyframes slideshowA
+{
+	0%{background-image:url("../AlbumArt/2nd_law.jpg");}
+	25%{background-image:url("../AlbumArt/Audioslave.jpg");}
+	50%{background-image:url("../AlbumArt/egomaniac.jpg");}
+	75%{background-image:url("../AlbumArt/ghosts.jpg");}
+	100%{background-image:url("../AlbumArt/2nd_law.jpg");}
+}
+
+@keyframes slideshowB
+{
+	0%{background-image:url("../AlbumArt/frun.jpg");}
+	25%{background-image:url("../AlbumArt/LAD.jpg");}
+	50%{background-image:url("../AlbumArt/HOTS.jpg");}
+	75%{background-image:url("../AlbumArt/TIAY.jpg");}
+	100%{background-image:url("../AlbumArt/frun.jpg");}
+}
+
+@keyframes slideshowC
+{
+	0%{background-image:url("../AlbumArt/MTJAD.jpg");}
+	25%{background-image:url("../AlbumArt/living_things.jpg");}
+	50%{background-image:url("../AlbumArt/handclap.jpg");}
+	75%{background-image:url("../AlbumArt/PE.jpg");}
+	100%{background-image:url("../AlbumArt/DST.jpg");}
+}

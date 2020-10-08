@@ -1,0 +1,269 @@
+/*--------------------------------------------------
+	BODY
+----------------------------------------------------*/
+*
+{
+	margin: 0px 0px 0px 0px;
+	font-family: var(--theme-font);
+}
+
+body
+{
+	height: 150vw;
+	width: vw;
+	background-repeat: none;
+	background-size: auto;
+    background: var(--theme-gradient);
+}
+
+h1
+{
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+h3
+{
+	color: #FFFFFF;
+	font-weight: normal;
+}
+
+p
+{
+	color: #FFFFFF;	
+}
+
+.spot
+{
+	color: #dba63a;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+.SongTitle
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 40px;
+	font-style: italic;
+}
+
+.ArstistDetail
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.AlbumDetail
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/*--------------------------------------------------
+Main Image Caption alterations
+----------------------------------------------------*/
+
+.HomeImageTitle
+{
+	position:absolute;
+	top: 6vw;
+    	left: 46vw;
+	color: #FFFFFFF;		
+}
+
+.HomeImageCaption
+{
+	position: absolute;
+	top: 9vw;
+    	left: 46vw;
+	color: #FFFFFF;		
+}
+
+/*--------------------------------------------------
+	Top Table
+----------------------------------------------------*/
+
+.BigTable
+{
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	border-collapse: seperate;
+	border-spacing:0 30px;
+	text-align: center;
+	
+}
+
+.TopTable
+{
+	width:100%;
+	box-shadow: 0px 7px 20px var(--theme-secondary);
+	
+}
+
+.MainHeading
+{
+	background-color:  var(--theme-secondary);
+  	color: white;
+	box-shadow: 0px 7px 20px var(--theme-secondary);
+}
+	
+
+th
+{
+  	background-color: #000000;
+	
+}
+
+tr
+{
+	border: none;
+	background: var(--theme-secondary);
+}
+
+td
+{
+}
+
+
+.AlbumHolder
+{
+	height: 20vw;
+	width: 20vw;
+	overflow:hidden;
+}
+
+.ThumbNail
+{
+	height: 80%;
+	width: 80%;
+	border-radius: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*-------------------------------------
+	Searchbar Window
+------------------------------*/
+
+.SearchPanel
+{
+	z-index: 10;
+	position: relative;
+	background-color:  var(--theme-secondary);
+	top: 30px;
+	left: 2vw;
+	width: 20vw;
+	height: 18vw;
+	border-radius: 10%;	
+}
+
+.SearchBar
+{
+	position: relative;
+	left: 10px;
+	top: 15px;
+	height: 2vw;
+	width: 14vw;
+	border-radius: 5px;
+  	border: none;
+	box-shadow: 0px 7px 20px var(--theme-secondary);
+}
+
+.SearchButton
+{
+	position: relative;
+	left: vw;
+	top: 15px;
+	height: 3vw;
+	width: 3vw;
+	background-color: #ddd;
+	border: none;
+	cursor: pointer;
+	border-radius: 50%;
+	transition: background-color 0.5s;
+	box-shadow: 0px 7px 20px var(--theme-secondary);
+	
+}
+
+.SearchButton:hover
+{
+	background-color: var(--theme-primary);
+}
+
+.SearchText
+{
+	position: relative;
+	left: 15px;
+	top: 15px;
+}
+
+.Filters
+{
+	position: absolute;
+	left: 10px;
+	top: 100px;
+}
+
+.Filter
+{
+	display: block;
+	position: relative;
+	left: 15px;
+	padding-left: 35px;
+	margin-bottom: -10px;
+	cursor: pointer;
+}
+
+.Filter input
+{
+	opacity: 0;
+	height: 0;
+	width: 0;
+}
+
+.checkmark
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+ 	width: 25px;
+	background: #FFFFFF;
+	border-radius: 50%;
+	box-shadow: 0px 7px 20px var(--theme-secondary);
+}
+
+.Filter input:checked ~ .checkmark
+{
+	background: var(--theme-gradient);
+}
+
+.checkmark:after
+{
+	content: "*";
+	position: absolute;
+	display: none;
+}
+
+.container input:checked ~ .checkmark:after
+{
+	display: block;
+}
+
+.container .checkmark:after
+{
+	left: 10px;
+	top: 5px;
+	width: 5px;
+	height: 10px;
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}

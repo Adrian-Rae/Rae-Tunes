@@ -1,0 +1,140 @@
+/*--------------------------------------------------
+	BODY
+----------------------------------------------------*/
+*
+{
+	margin: 0px 0px 0px 0px;
+	font-family: var(--theme-font);
+}
+
+body
+{
+	height: auto;
+	width: vw;
+	background: var(--theme-gradient);
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+
+h1
+{
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+h3
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+p
+{
+	color: #FFFFFF;	
+}
+
+/*--------------------------------------------------
+Main Image Caption alterations
+----------------------------------------------------*/
+
+.HomeImageTitle
+{
+	position:absolute;
+	top: 18vh;
+    	left: 72vw		
+}
+
+.HomeImageCaption
+{
+	position: absolute;
+	top: 28vh;
+    	left: 72vw		
+}
+
+/*--------------------------------------------------
+	Featured Table
+----------------------------------------------------*/
+
+.featuredTable
+{
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;	
+	border-collapse: seperate;
+	border-spacing:0 30px;
+}
+
+.MainHeading
+{
+	background-color:  var(--theme-secondary);
+  	color: white;
+	box-shadow: 0px 7px 20px var(--theme-secondary);
+}	
+
+th
+{
+  	background-color: #000000;
+	color: white;
+}
+
+
+tr:nth-child(even) 
+{
+	background-color: #000000;
+	box-shadow: 0px 7px 20px var(--theme-secondary);
+}
+
+tr:nth-child(odd) 
+{
+	background-color: var(--theme-secondary);
+	height: 3vw;
+	box-shadow: 0px 7px 20px var(--theme-secondary);
+}
+
+.tableTitle
+{
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.tableCol
+{
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+
+.AlbumHolder
+{
+	height: 20vw;
+	width: 20vw;
+	overflow:hidden;
+}
+
+.ThumbNail
+{
+	height: 80%;
+	width: 80%;
+	border-radius: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.TableText
+{
+	color: #FFFFFF;
+	font-weight: normal;
+}
+
+.YouTubeVideo
+{
+	left: 0px;
+	top:0px;
+	height:18vw;
+	width:97%;
+	margin-top: auto;
+	margin-bottom: auto;
+}

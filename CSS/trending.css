@@ -1,0 +1,274 @@
+/*--------------------------------------------------
+	BODY
+----------------------------------------------------*/
+*
+{
+	margin: 0px 0px 0px 0px;
+	font-family: var(--theme-font);
+}
+
+body
+{
+	height: 1600px;
+	width: vw;
+	background: var(--theme-gradient);
+	background-repeat: no-repeat;
+	background-size: auto;
+	
+}
+
+h1
+{
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+h3
+{
+	color: #FFFFFF;
+	font-weight: normal;
+}
+
+p
+{
+	color: #FFFFFF;	
+}
+
+.SongTitle
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 40px;
+	font-style: italic;
+}
+
+.ArtistDetail
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.AlbumDetail
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 20px;
+}
+/*--------------------------------------------------
+Main Image Caption alterations
+----------------------------------------------------*/
+
+.HomeImageTitle
+{
+	position:absolute;
+	top: 6vw;
+    	left: 46vw;
+	color: #000000;		
+}
+
+.HomeImageCaption
+{
+	position: absolute;
+	top: 9vw;
+    	left: 46vw;
+	color: #000000;		
+}
+
+/*--------------------------------------------------
+	Trending Table
+----------------------------------------------------*/
+
+.BigTable
+{
+	position:absolute;
+	left: 26vw;
+	width: 70%;
+	border-collapse: seperate;
+	border-spacing:0 30px;
+	text-align: center;
+	border-radius: 5px;
+	
+}
+
+.TrendingTable
+{
+	width:100%;
+	box-shadow: 0px 7px 20px var(--theme-secondary);
+	border-radius: 15px;
+	
+}
+
+.MainHeading
+{
+	background-color:  var(--theme-secondary);
+  	color: white;
+	box-shadow: 0px 7px 20px var(--theme-secondary);
+}
+	
+
+th
+{
+  	background-color: #000000;
+	
+}
+
+tr
+{
+	border-radius: 5px;
+	background: var(--theme-secondary);
+}
+
+td
+{
+	border-radius: 5px;
+}
+
+
+.AlbumHolder
+{
+	height: 20vw;
+	width: 20vw;
+	overflow:hidden;
+	/*background-color:  #A000000;*/
+}
+
+.ThumbNail
+{
+	height: 80%;
+	width: 80%;
+	border-radius: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*-------------------------------------
+	Searchbar Window
+------------------------------*/
+
+.SearchPanel
+{
+	z-index: 10;
+	position: relative;
+	background-color:  var(--theme-secondary);
+	top: 30px;
+	left: 2vw;
+	width: 20vw;
+	height: 220px;
+	border-radius: 10%;
+	box-shadow: 0px 7px 20px var(--theme-secondary);	
+}
+
+.SearchBar
+{
+	position: relative;
+	left: 10px;
+	top: 15px;
+	height: 2vw;
+	width: 14vw;
+	border-radius: 5px;
+  	border: none;
+	box-shadow: 0px 7px 20px var(--theme-secondary);
+}
+
+.SearchButton
+{
+	position: relative;
+	left: vw;
+	top: 15px;
+	height: 3vw;
+	width: 3vw;
+	background-color: #ddd;
+	border: none;
+	cursor: pointer;
+	border-radius: 50%;
+	transition: background-color 0.5s;
+	box-shadow: 0px 7px 20px var(--theme-secondary);
+	
+}
+
+.SearchButton:hover
+{
+	background-color: var(--theme-primary);
+}
+
+.SearchText
+{
+	position: relative;
+	left: 15px;
+	top: 15px;
+}
+
+.Filters
+{
+	position: absolute;
+	left: 20px;
+	top: 100px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 22px;
+	
+}
+
+
+.Filter
+{
+	display: block;
+	position: relative;
+	left: 15px;
+	padding-left: 35px;
+	margin-bottom: -10px;
+	cursor: pointer;
+}
+
+.Filters input
+{
+	opacity: 0;
+	height: 0;
+	width: 0;
+}
+
+#C1
+{
+	cursor:pointer;
+}
+
+#C2
+{
+	cursor:pointer;
+}
+
+#C3
+{
+	cursor:pointer;
+}
+
+/*==================== SLIDER ==========================*/
+
+.sliderRate
+{
+	-webkit-appearance: none;
+	width: 80%;
+	height: 15px;
+	border-radius: 30px;  
+	background: #d3d3d3;
+	outline: none;
+	opacity: 0.5;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+	background: linear-gradient(90deg, rgba(120,120,120,1) 0%, rgba(177,1,1,1) 13%, rgba(227,64,0,1) 33%, rgba(201,161,13,1) 54%, rgba(14,66,0,1) 96%);;
+}
+.sliderRate:hover
+{
+	opacity: 1;
+}
+
+.sliderRate::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 35px;
+	height: 35px;
+	border-radius:50%;
+	background: #ddd;
+	cursor: pointer;
+}
